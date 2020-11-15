@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Bookmark landing page</title>
+
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="navbar-brand">
+          <img src="images/logo-bookmark.svg" alt="page logo" />
+        </div>
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger">
+          <div class="hamburger-line"></div>
+        </div>
+        <nav class="navbar-collapse">
+          <ul class="navbar-navs">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="navbar-btn">
+            <button class="nav-btn">Login</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-image-div">
+        <img
+          src="images/illustration-hero.svg"
+          class="hero-image"
+          alt="hero illustrate"
+        />
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">A Simple Bookmark Manager</h1>
+        <p class="hero-text">
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="hero-content-btns">
+          <button class="hero-btn">Get it on Chrome</button>
+          <button class="hero-btn">Get it on Firefox</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="feature">
+      <h1 class="feature-title">Features</h1>
+      <p class="feature-text">
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go.
+      </p>
+      <div class="feature-links">
+        <a href="#feature1" class="feature-link-btn">Simple Bookmarking</a>
+        <a href="#feature2" class="feature-link-btn">Speedy Searching</a>
+        <a href="#feature3" class="feature-link-btn">Easy Sharing</a>
+      </div>
+      <div>
+        <div class="feature-content" id="feature1">
+          <div class="feature-content-desktop">
+            <div class="feature-content-image">
+              <img
+                src="images/illustration-features-tab-1.svg"
+                alt="ilustrate tap 1"
+              />
+            </div>
+            <div class="feature-sub-content">
+              <h2 class="feature-content-title">Bookmark in one click</h2>
+              <p class="feature-content-text">
+                Organize your bookmarks however you like. Our simple
+                drag-and-drop interface gives you complete control over how you
+                manage your favourite sites.
+              </p>
+              <button class="feature-btn">More Info</button>
+            </div>
+          </div>
+        </div>
+        <div class="feature-content" id="feature2">
+          <div class="feature-content-desktop">
+            <div class="feature-content-image">
+              <img
+                src="images/illustration-features-tab-2.svg"
+                alt="ilustrate tap 2"
+              />
+            </div>
+            <div class="feature-sub-content">
+              <h2 class="feature-content-title">Intelligent search</h2>
+              <p class="feature-content-text">
+                Our powerful search feature will help you find saved sites in no
+                time at all. No need to trawl through all of your bookmarks.
+              </p>
+              <button class="feature-btn">More Info</button>
+            </div>
+          </div>
+        </div>
+        <div class="feature-content" id="feature3">
+          <div class="feature-content-desktop">
+            <div class="feature-content-image">
+              <img
+                src="images/illustration-features-tab-3.svg"
+                alt="ilustrate tap 3"
+              />
+            </div>
+            <div class="feature-sub-content">
+              <h2 class="feature-content-title">Share your bookmarks</h2>
+              <p class="feature-content-text">
+                Easily share your bookmarks and collections with others. Create
+                a shareable link that you can send at the click of a button.
+              </p>
+              <button class="feature-btn">More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="extension">
+      <h1 class="extension-title">Download the extension</h1>
+      <p class="extension-text">
+        We've got more browsers in the pipeline. Please do let us know if you've
+        got a favourite you'd like us to prioritize.
+      </p>
+      <div class="extension-cards">
+        <div class="card">
+          <img src="images/logo-chrome.svg" alt="google" class="card-image" />
+          <div class="card-body">
+            <h1 class="card-title">Add to Chrome</h1>
+            <div class="row">
+              <small class="card-sub-title"> Minimum version 62 </small>
+              <img src="images/bg-dots.svg" alt="dots" class="card-body-image" />
+            </div>
+            <button type="submit" class="card-btn">Add & Install Extension</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/logo-firefox.svg" alt="firefox" class="card-image" />
+          <div class="card-body">
+            <h1 class="card-title">Add to Firefox</h1>
+            <div class="row">
+              <small class="card-sub-title"> Minimum version 55 </small>
+              <img src="images/bg-dots.svg" alt="dots" class="card-body-image" />
+            </div>
+            <button type="submit" class="card-btn">Add & Install Extension</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/logo-opera.svg" alt="opera" class="card-image" />
+          <div class="card-body">
+            <h1 class="card-title">Add to Opera</h1>
+            <div class="row">
+              <small class="card-sub-title"> Minimum version 46 </small>
+              <img src="images/bg-dots.svg" alt="dots" class="card-body-image" />
+            </div>
+            <button type="submit" class="card-btn">Add & Install Extension</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="question">
+      <h1 class="question-title">Frequently Asked Questions</h1>
+      <p class="question-text">
+        Here are some of our FAQs. If you have any other questions you’d like
+        answered please feel free to email us.
+      </p>
+      <div class="question-collapse">
+        <div class="collapse">
+          <a href="#collapse1" class="collapse-link">
+            <p class="collapse-title">What is Bookmark?</p>
+            <img src="images/icon-arrow.svg" alt="arrow" class="collapse-simple" />
+          </a>
+          <p class="collapse-text" id="collapse1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+            quis quam ornare mattis.
+          </p>
+        </div>
+        <div class="collapse">
+          <a href="#collapse2" class="collapse-link">
+            <p class="collapse-title">How can I request a new browser?</p>
+            <img src="images/icon-arrow.svg" alt="arrow" class="collapse-simple" />
+          </a>
+          <p class="collapse-text" id="collapse2">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
+            aliquet convallis ultricies. Mauris augue massa, ultricies non
+            ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
+            ultricies. Mauris augue massa, ultricies non ligula. Suspendisse
+            imperdiet.
+          </p>
+        </div>
+        <div class="collapse">
+          <a href="#collapse3" class="collapse-link">
+            <p class="collapse-title">Is there a mobile app?</p>
+            <img src="images/icon-arrow.svg" alt="arrow" class="collapse-simple" />
+          </a>
+          <p class="collapse-text" id="collapse3">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+            vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
+            quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin
+            ex et ultricies bibendum.
+          </p>
+        </div>
+        <div class="collapse">
+          <a href="#collapse4" class="collapse-link">
+            <p class="collapse-title">What about other Chromium browsers?</p>
+            <img src="images/icon-arrow.svg" alt="arrow" class="collapse-simple"  />
+          </a>
+          <p class="collapse-text" id="collapse4">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
+            mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+            pellentesque non ut velit.
+          </p>
+        </div>
+      </div>
+      <button class="question-btn">More Info</button>
+    </section>
+
+    <section class="contact">
+      <h5 class="contact-sub-title">35,000+ already joined</h5>
+      <h2 class="contact-title">Stay up-to-date with what we’re doing</h2>
+      <div class="col">
+        <input
+        type="email"
+        class="contact-input"
+        placeholder="Enter your email address"
+      />
+      <button class="contact-btn" type="submit">Contact Us</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-brand-items">
+          <div class="footer-brand">
+            <img
+              src="images/white-logo-bookmark - Copy.svg"
+              alt="footer logo"
+              class="footer-logo"
+            />
+          </div>
+          <div class="footer-items">
+            <a href="#" class="footer-link">Features</a>
+            <a href="#" class="footer-link">Pricing</a>
+            <a href="#" class="footer-link">Contact</a>
+          </div>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-item">
+            <img
+              src="images/icon-facebook.svg"
+              class="social-link"
+              alt="facebook"
+            />
+          </a>
+          <a href="#" class="social-item">
+            <img
+              src="images/icon-twitter.svg"
+              class="social-link"
+              alt="twitter"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
